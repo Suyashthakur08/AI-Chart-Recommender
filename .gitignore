@@ -1,0 +1,55 @@
+# Python #
+###########
+
+# Virtual Environment
+# A machine-specific folder that should not be in source control.
+# Can be very large. Recreated by running `pip install -r requirements.txt`.
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+# These are temporary files Python creates automatically.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment Variables File
+# CRITICAL: This file contains your secret API key and MUST NOT be committed.
+.env
+.env.*
+env/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# OS-specific files
+# For macOS
+.DS_Store
+# For Windows
+Thumbs.db
